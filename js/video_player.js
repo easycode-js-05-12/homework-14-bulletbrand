@@ -152,8 +152,8 @@ class VideoPlayerBasic {
         <button class="player__button toggle" title="Toggle Play">►</button>
         <input type="range" name="volume" class="player__slider vol" min=0 max="1" step="0.05" value="${this._settings.volume}">
         <input type="range" name="playbackRate" class="player__slider speed" min="0.2" max="5" step="0.1" value="1">
-        <button data-skip="-1" class="player__button back">${this._settings.skipPrev}s »</button>
-        <button data-skip="1" class="player__button forward">« ${this._settings.skipNext}s</button>
+        <button data-skip="-1" class="player__button back">«${this._settings.skipPrev}s </button>
+        <button data-skip="1" class="player__button forward"> ${this._settings.skipNext}s»</button>
       
       </div>
     </div>
